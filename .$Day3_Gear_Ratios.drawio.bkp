@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2024-01-15T13:42:44.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="s_NHfT1NmBxdwgOYVhNM" version="22.0.0" type="device">
+  <diagram name="Page-1" id="zuPoCbkOXEci1_6RdDOx">
+    <mxGraphModel dx="712" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="19lOMTN58k3o56Qt6o8E-1" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Text file which defines a grid of symbols&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Square of a grid can contain&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;A&amp;nbsp; digit - part of a number&lt;/li&gt;&lt;li&gt;A full stop - to be ignored&lt;/li&gt;&lt;li&gt;A symbol - anything else&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Squares are adjacent with cardinal and diagonal neighbours&lt;/li&gt;&lt;li&gt;If any of the digits that make up a number are adjacent to a symbol, add that number to a rolling sum&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="160" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-2" value="Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-3" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-4" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-5" value="Warning" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-6" value="Class" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#FFFFFF;strokeColor=#B09500;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-8" target="19lOMTN58k3o56Qt6o8E-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-8" value="Input: Text file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-9" target="19lOMTN58k3o56Qt6o8E-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-9" value="Read file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-11" target="19lOMTN58k3o56Qt6o8E-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-11" value="&amp;nbsp;For each line:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="841" y="160" width="800" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-13" target="19lOMTN58k3o56Qt6o8E-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-13" target="19lOMTN58k3o56Qt6o8E-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-13" value="Populate data storage matrix" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="920" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-14" target="19lOMTN58k3o56Qt6o8E-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-14" value="Identify numbers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-16" value="&amp;nbsp;For each number:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="360" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="19lOMTN58k3o56Qt6o8E-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1361" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-20" target="19lOMTN58k3o56Qt6o8E-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-20" value="If at least one of those adjacent squares contains a symbol" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=11;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1400" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-21" target="19lOMTN58k3o56Qt6o8E-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="100" />
+              <mxPoint x="1360" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-21" value="Create a rolling sum int, set to 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-22" value="Add ID to&lt;br&gt;rolling sum of numbers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1520" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-26" value="Print rolling sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1680" y="200" width="82.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-28" value="Data Handler Class:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#FFFFFF;strokeColor=#B09500;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="560" width="370" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-29" target="19lOMTN58k3o56Qt6o8E-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-29" value="Initialise an empty matrix" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="800" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-30" target="19lOMTN58k3o56Qt6o8E-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19lOMTN58k3o56Qt6o8E-30" target="19lOMTN58k3o56Qt6o8E-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-30" value="Record number of lines and number of characters pers line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-35" value="Populate data storage matrix" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="920" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19lOMTN58k3o56Qt6o8E-43" value="Create a list of indices of adjacent squares" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1280" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
